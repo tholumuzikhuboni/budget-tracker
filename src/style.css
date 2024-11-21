@@ -1,0 +1,54 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: black;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+#balance h3 {
+    color: #28a745;
+}
+
+#transactionList .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#transactionList .expense {
+    color: red;
+}
+
+#transactionList .income {
+    color: green;
+}
+
+/* Truncate the description and show full text on hover */
+#transactionList .list-group-item .description {
+    max-width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#transactionList .list-group-item .description:hover {
+    overflow: visible;
+    white-space: normal;
+    background-color: #f1f1f1;
+    padding: 5px;
+    border-radius: 5px;
+}
+#transactionDate {
+    background-color: #f0f0f0;  /* Light gray color */
+    color: #333;                /* Dark text for contrast */
+      }
